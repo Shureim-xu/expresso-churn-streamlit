@@ -1,7 +1,7 @@
-pandas
-numpy
-scikit-learn
-joblib
-streamlit
-ydata-profiling
-matplotlib
+
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.0
+streamlit==1.39.0
+joblib==1.4.2
+ydata-profiling==4.7.0
