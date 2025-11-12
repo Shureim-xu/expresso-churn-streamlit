@@ -4,4 +4,4 @@ numpy==1.26.4
 scikit-learn==1.6.0
 streamlit==1.39.0
 joblib==1.4.2
-ydata-profiling==4.7.0
+ydata-profiling
