@@ -1,0 +1,23 @@
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore data files
+*.csv
+*.xlsx
+*.xls
+
+# Ignore large model files
+*.joblib
+*.pkl
+
+# Ignore profiling reports
+*.html
+
+# Ignore cache and system files
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# VS Code files
+.vscode/
