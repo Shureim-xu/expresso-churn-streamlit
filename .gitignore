@@ -3,16 +3,16 @@ venv/
 .env/
 
 # Ignore data files
-*.csv
-*.xlsx
-*.xls
+!.csv
+!.xlsx
+!.xls
 
 # Ignore large model files
-*.joblib
-*.pkl
+!.joblib
+!.pkl
 
 # Ignore profiling reports
-*.html
+!.html
 
 # Ignore cache and system files
 __pycache__/
