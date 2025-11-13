@@ -3,16 +3,13 @@ venv/
 .env/
 
 # Ignore data files
-*.csv
-*.xlsx
-*.xls
+!.csv
+!.xlsx
+!.xls
 
-# Ignore large model files
-*.joblib
-*.pkl
 
 # Ignore profiling reports
-*.html
+!.html
 
 # Ignore cache and system files
 __pycache__/
@@ -21,3 +18,5 @@ Thumbs.db
 
 # VS Code files
 .vscode/
+
+*.joblib filter=lfs diff=lfs merge=lfs -text
